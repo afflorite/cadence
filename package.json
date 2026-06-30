@@ -1,0 +1,15 @@
+{
+  "name": "cadence",
+  "version": "0.1.0",
+  "description": "A writing system for long-form content in React. Components for essays, papers, books, and courses.",
+  "keywords": ["react", "writing", "essay", "components", "long-form"],
+  "main": "./index.jsx",
+  "exports": {
+    ".": "./index.jsx",
+    "./styles.css": "./styles.css"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "license": "MIT"
+}
