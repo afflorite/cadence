@@ -2,13 +2,13 @@
  * cadence/styles.css
  *
  * Default design tokens for Cadence components.
- * Import this in your app's global CSS, then override
- * any token to match your design system.
+ * Import this in the app's global CSS, then override
+ * any token to match the design system.
  *
  * Usage:
  *   @import '@/components/cadence/styles.css';
  *
- * Override example (in your globals.css):
+ * Override example (in original globals.css):
  *   :root {
  *     --cadence-accent: #c87aa0;
  *     --cadence-fg:     #3a2a3a;
@@ -45,31 +45,3 @@
   --cadence-accent:     #2264a8;
   --cadence-accent-bg:  rgba(34, 100, 168, 0.08);
 }
-
-/* ═══════════════════════════════════════════════════════════════
-   CORPUS BRIDGE
-   Maps Corpus design system tokens → Cadence tokens.
-   If you use Corpus (data-theme dark/light), add this block
-   to your globals.css AFTER the Corpus token definitions.
-   This overrides Cadence defaults with Corpus values so
-   both share the same visual language.
-
-   Copy this into your globals.css:
-
-   [data-theme="dark"], [data-theme="light"] {
-     --cadence-fg:         var(--fg);
-     --cadence-fg2:        var(--fg2);
-     --cadence-fg3:        var(--fg3);
-     --cadence-fg4:        var(--fg4);
-     --cadence-fg5:        var(--fg5);
-     --cadence-bg2:        var(--bg2);
-     --cadence-bg3:        var(--bg3);
-     --cadence-border:     var(--border);
-     --cadence-border2:    var(--border2);
-     --cadence-accent:     var(--accent);
-     --cadence-accent-bg:  var(--accent-bg);
-     --cadence-font-serif: var(--font-serif);
-     --cadence-font-mono:  var(--font-mono);
-     --cadence-font-sans:  var(--font-sans);
-   }
-═══════════════════════════════════════════════════════════════ */
