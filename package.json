@@ -1,5 +1,5 @@
 {
-  "name": "cadence",
+  "name": "cadence-kit",
   "version": "0.1.0",
   "description": "A writing system for long-form content in React. Components for essays, papers, books, and courses.",
   "keywords": ["react", "writing", "essay", "components", "long-form"],
