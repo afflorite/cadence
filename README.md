@@ -235,6 +235,22 @@ All tokens are prefixed with `--cadence-` to avoid collision with your design sy
 
 ---
 
+## Testing
+
+This package uses Vitest + React Testing Library.
+
+\`\`\`bash
+npm install
+npm test
+\`\`\`
+
+Covers: `Table` (cell rendering, type styling), `TreeMap` (nested trees, 
+expand/collapse state), `Essay`/`Section` (composition, conditional TOC).
+
+Test files live in `src/__test__/`.
+
+---
+
 ## Versioning
 
 ```bash
