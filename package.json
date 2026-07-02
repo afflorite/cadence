@@ -9,6 +9,10 @@
     "components",
     "long-form"
   ],
+  "files": [
+    "src/index.jsx",
+    "styles.css"
+  ],
   "main": "./src/index.jsx",
   "exports": {
     ".": "./src/index.jsx",
